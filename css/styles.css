@@ -13,9 +13,24 @@ div {
 body {
     background-image: url("../img/bg.png");
     background-position: left 40px;
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-color: #C0DEED;
+    background-color: #faf8cc;
     line-height: 10px;
+}
+.navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#slogan {
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    bottom: -7px;
+    padding-left: 45px;
 }
 
 .page-container {
@@ -25,7 +40,8 @@ body {
 }
 
 .user-container {
-    background-color: #fff;
+    background-color: #065576;
+    color: #f2d902;
     position: relative;
     float: left;
     width: 290px;
@@ -34,11 +50,14 @@ body {
     border: 0;
     line-height: 16px;
     height: 400px;
+    text-align: center;
+
 }
 
 .feed-container {
-    box-shadow: 10px 10px 5px #888888;
+    box-shadow: 10px 10px 5px #fd060c;
     background-color: #fff;
+    opacity: .6;
     float: right;
     width: 590px;
     border-radius: 6px;
