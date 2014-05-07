@@ -7,7 +7,7 @@
     <script src="js/moment.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/cover.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -15,17 +15,38 @@
     <![endif]-->
   </head>
   <body>
+    <nav class="navbar navbar-default" role="navagation">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Twittler</a>
+        </div>
+      </div>
+    </nav>
+    <div id="page-outer">
+      <div class="page-container">
+        <div class="user-container">
+          <h1>ABCDEFGHIJ</h1>
+        </div>
+        <div class="feed-container">
+          <div class="feed-heading">
+            <p>Tweets</p>
+          </div>
+          <div class="feed">
+          </div>
+        </div>
+      </div>
+    </div>
 
 
 
-
+    </div>
 
     <!-- embedded js -->
     <script>
       $(document).ready(function(){
         setInterval(function() {
-          var $body = $('body');
-          $body.html('');
+          var $body = $('.feed');
+          $body.html('THIS IS IT');
 
           var index = streams.home.length - 1;
           while(index >= 0){
