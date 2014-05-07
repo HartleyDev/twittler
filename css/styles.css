@@ -49,7 +49,7 @@ body {
     border-radius: 6px;
     border: 0;
     line-height: 16px;
-    height: 400px;
+    height: 200px;
     text-align: center;
 
 }
@@ -57,12 +57,13 @@ body {
 .feed-container {
     box-shadow: 10px 10px 5px #fd060c;
     background-color: #fff;
-    opacity: .6;
     float: right;
     width: 590px;
     border-radius: 6px;
     overflow: hidden;
-    font-size: 22px;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 5px;
 }
 
 .feed-heading {
